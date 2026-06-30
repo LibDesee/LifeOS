@@ -19,57 +19,92 @@
 | Field | Value |
 |---|---|
 | Title | 30 Deployment |
-| Version | 0.1.0 |
+| Version | 0.2.0 |
 | Status | Draft |
 | Owner | TODO |
-| Last Updated | 2026-06-30 |
+| Last Updated | 2026-07-01 |
 
 ## Purpose
 
-TODO
+Define the initial LifeOS deployment targets and deployment principles.
 
 ## Scope
 
-- TODO
+- Android deployment.
+- Windows deployment.
+- Deployment principles.
 
 ## Dependencies
 
 | Dependency | Type | Status |
 |---|---|---|
-| TODO | TODO | TODO |
+| Android | Deployment target | TODO |
+| Windows | Deployment target | TODO |
 
 ## Related Documents
 
 - [Deployment Diagram](../Architecture/deployment-diagram.md)
+- [16 Android](16-android.md)
+- [17 Windows](17-windows.md)
+- [12 Database](12-database.md)
 
 ## Definitions
 
 | Term | Definition |
 |---|---|
-| TODO | TODO |
+| Deployment Target | TODO |
+| Stable Release | TODO |
+| Local Database Migration | TODO |
+| Safe Update | TODO |
 
 ## Requirements
 
 | ID | Requirement | Priority | Status |
 |---|---|---|---|
-| TODO | TODO | TODO | TODO |
+| DEP-001 | Deployment MUST support Android. | High | TODO |
+| DEP-002 | Deployment MUST support Windows. | High | TODO |
+| DEP-003 | Deployment SHOULD use stable releases. | High | TODO |
+| DEP-004 | Deployment MUST support local database migration. | High | TODO |
+| DEP-005 | Deployment SHOULD support safe updates. | High | TODO |
 
 ## Content
 
 ### Deployment
 
-TODO
+#### Deployment Targets
+
+| Deployment Target | Status |
+|---|---|
+| Android | TODO |
+| Windows | TODO |
+
+#### Deployment Principles
+
+| Principle | Requirement |
+|---|---|
+| Stable releases | Deployment SHOULD use stable releases. |
+| Local database migration | Deployment MUST support local database migration. |
+| Safe updates | Deployment SHOULD support safe updates. |
 
 ## Open Questions
 
-- TODO
+- What is the deployment process for Android?
+- What is the deployment process for Windows?
+- What defines a stable release?
+- How should local database migration work?
+- What makes an update safe?
 
 ## TODO
 
-- [ ] TODO
+- [ ] Define Android deployment.
+- [ ] Define Windows deployment.
+- [ ] Define stable release criteria.
+- [ ] Define local database migration.
+- [ ] Define safe updates.
 
 ## Changelog
 
 | Date | Version | Change |
 |---|---|---|
 | 2026-06-30 | 0.1.0 | Created PRD document. |
+| 2026-07-01 | 0.2.0 | Filled deployment document from Task 029 source material. |
